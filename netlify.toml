@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/admin.html"
+  status = 200
+
+[build.environment]
+  API_URL = "https://your-app-name.herokuapp.com"  # Replace with your Heroku app URL 
